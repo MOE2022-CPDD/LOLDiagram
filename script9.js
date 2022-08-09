@@ -154,7 +154,7 @@ function CheckAns() {
                         if (CRI > CLI) {
 
                             //6 Final state no K but with some I
-                            if (CRE >= 1 && CRG == 0) {
+                            if (CRE >= 1 && CRG >=0) {
                                 document.getElementById("check").innerHTML = "<b><u>*Correct*</u></b>";
                                 document.getElementById("reply").innerHTML = `<button type="button" onclick="location.href='index10.html'">Next Qns</button>`;
 
@@ -162,7 +162,7 @@ function CheckAns() {
                             else {
                                 console.log("There should be some energy in the elastic store and no energy in the gravitational store in the final state of the system.");
                                 document.getElementById("check").innerHTML = "*Incorrect*";
-                                document.getElementById("reply").innerHTML = "There should be some energy in the elastic store and no energy in the gravitational store in the final state of the system.";
+                                document.getElementById("reply").innerHTML = "There should be some energy in the elastic store and no energy in the gravitational store in the final state of the system.<br> OR <br> Some energy in the elastic store and some energy in the gravitational store in the final state of the system.";
 
                             }
                         }

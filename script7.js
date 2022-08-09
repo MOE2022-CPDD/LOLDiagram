@@ -178,14 +178,14 @@ function CheckAns() {
                 else {
                     console.log("There should be some energy transferred out of the system through the propagation of waves (light and infrared radiation). <br> OR <br> some energy transferred out of the system through the propagation of waves (light) and through heating (radiation).");
                     document.getElementById("check").innerHTML = "*Incorrect*";
-                    document.getElementById("reply").innerHTML = "There should be some energy transferred out of the system through the propagation of waves (light and infrared radiation) only. <br> OR <br> Some energy transferred out of the system through the propagation of waves (light) and through heating ( infrared radiation).";
+                    document.getElementById("reply").innerHTML = "There should be some energy transferred out of the system through the propagation of waves (light and infrared radiation) only. <br> OR <br> Some energy transferred out of the system through the propagation of waves (light) and through heating (infrared radiation).";
 
                 }
             }
             else {
                 console.log("There should be some energy transferred into the system electrically by an electric current from the battery.");
                 document.getElementById("check").innerHTML = "*Incorrect*";
-                document.getElementById("reply").innerHTML = "There should be some energy transferred into the system electrically by an electric current from the battery.";
+                document.getElementById("reply").innerHTML = "There should be some energy transferred into the system electrically by an electric current from the battery only.";
 
             }
 
